@@ -1,7 +1,13 @@
 // common files
 @import "common/_variables";
+@import "common/mixins";
 @import "common/_fonts";
 @import "common/_common";
 
 // blocks
 @import "blocks/_promo";
+@import "blocks/_order";
+@import "blocks/_header";
+@import "blocks/_preview";
+@import "blocks/_footer";
+
