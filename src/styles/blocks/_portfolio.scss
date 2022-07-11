@@ -1,4 +1,12 @@
 .portfolio-inner {
   @include inner;
+  color: $color-dark;
+  text-align: center;
+  padding: 130px 0;
 
+}
+
+.portfolio-img {
+  display:flex;
+  padding: 100px 0;
 }
