@@ -1,9 +1,42 @@
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   padding: 16px 0;
   background-color: $color-dark;
+
+
+}
+
+.header-logo {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: #ffffff;
+  text-decoration: none;
+
+
+
 
 }
 
 .header-inner {
   @include inner;
+
 }
+
+.header-wrap {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.menu-header {
+  display: flex;
+  padding: 0 10px;
+
+}
+
+

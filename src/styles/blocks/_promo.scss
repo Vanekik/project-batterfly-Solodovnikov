@@ -14,15 +14,14 @@
   }
 }
 
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
-
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
-  }
-
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
-  }
+.promo-title {
+  padding: 200px 0;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
 }
+
+// .btn {
+//   text-align: center;
+// }
