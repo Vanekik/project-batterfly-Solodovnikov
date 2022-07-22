@@ -1,23 +1,12 @@
 .header {
   position: fixed;
-  width: 100%;
   top: 0;
+  left: 0;
   z-index: 1000;
+  width: 100%;
   padding: 16px 0;
   background-color: $color-dark;
-
-
-}
-
-.header-logo {
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 57px;
-  color: #ffffff;
-  text-decoration: none;
-
-
-
+  color: white;
 
 }
 
@@ -28,15 +17,27 @@
 
 .header-wrap {
   display: flex;
-  justify-content: space-around;
-
-
+  align-items: center;
 }
 
-.menu-header {
+
+.header-logo {
+  margin-left: 5px;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: $color-white;
+  text-decoration: none;
+}
+
+.menu-list {
   display: flex;
-  padding: 0 10px;
+  list-style: none;
 
+  }
+
+
+.menu-link {
+  @include menu-link;
 }
-
-

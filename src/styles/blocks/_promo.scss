@@ -1,12 +1,13 @@
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
-  border-radius: 10px;
+  text-align: center;
+  background-image: url(../www/images/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .promo-inner {
-  margin: 0 auto;
-  width: 1024px;
+  @include inner;
 
   @media (max-width: 1279px) {
     width: auto;
@@ -15,11 +16,13 @@
 }
 
 .promo-title {
+  text-align: center;
   padding: 200px 0;
   font-weight: 600;
   font-size: 72px;
   line-height: 98px;
-  text-align: center;
+
+  color: $color-white;
 }
 
 // .btn {
